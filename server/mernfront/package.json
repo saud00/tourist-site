@@ -1,0 +1,47 @@
+{
+  "name": "mernfront",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:4000",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@date-io/date-fns": "^1.3.13",
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/pickers": "^3.3.10",
+    "@mui/icons-material": "^5.0.4",
+    "@mui/lab": "^5.0.0-alpha.59",
+    "@mui/material": "^5.2.0",
+    "@mui/styles": "^5.0.1",
+    "@natscale/react-calendar": "0.0.0-beta.20",
+    "aos": "^3.0.0-beta.6",
+    "cookie-parser": "^1.4.6",
+    "date-fns": "^2.27.0",
+    "first": "0.0.3",
+    "formik": "^2.2.9",
+    "formik-mui": "^4.0.0-alpha.3",
+    "http-proxy-middleware": "^2.0.1",
+    "next": "11.1.2",
+    "next-auth": "^4.1.0",
+    "next-images": "^1.8.2",
+    "next-redux-wrapper": "^7.0.5",
+    "react": "17.0.2",
+    "react-calendar": "^3.5.0",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "eslint": "8.0.1",
+    "eslint-config-next": "11.1.2"
+  }
+}
