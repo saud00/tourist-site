@@ -25,5 +25,5 @@ app.listen(PORT, ()=>{
 })
 
 if(process.env.NODE_ENV == "production" ){
-    app.use(express.static("./mernfront/out"));
+    app.use(express.static("mernfront/out"));
 }
