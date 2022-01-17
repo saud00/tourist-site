@@ -13,3 +13,7 @@ app.use(require('./router/route'))
 app.listen(PORT, ()=>{
     console.log(`server is running at ${PORT}`)
 })
+
+if(process.env.NODE_ENV == "production" ){
+    app.use(express.static("out"));
+}

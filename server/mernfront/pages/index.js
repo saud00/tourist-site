@@ -1,7 +1,7 @@
 import { style } from '@mui/system'
 import { makeStyles } from '@mui/styles';
 import Head from 'next/head'
-import Image from 'next/image'
+// import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { Typography, Box } from '@mui/material';
 import CheckInForm from '../components/home/CheckInForm';
@@ -14,7 +14,7 @@ const styled = makeStyles({
     height:'45vh',alignItems:"center", 
   }, img:{
     // backgroundImage: `linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.7))`,
-    width:"100vw", height:"45vh", 
+    width:"100vw", height:"55vh", 
   },
   checkIn:{
     maxWidth:"4/5",

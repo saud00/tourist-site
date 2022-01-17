@@ -46,7 +46,7 @@ function Index() {
   }, [dispatcher])
 
     return (
-        <div style={{padding:15}}>
+        <div style={{padding:15}} data-aos="fade-up" data-aos-duration="3000">
             <div style={{marginTop:"20px", marginBottom:"10px", justifyContent:"center", display:"flex"}}>
                 <Steppers/>
             </div>

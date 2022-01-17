@@ -46,7 +46,7 @@ function Nav() {
                 <li style={{display: scroll>150? "flex": "none",lineHeight:0}}>
                 <Link href="/">
                   <a >
-                    <Image src="/img/touristy-transparent.png" alt="logo" height={70} width={70} />
+                    <img src="/img/touristy-transparent.png" alt="logo" height={70} width={70} />
                   </a>
                   </Link>
                 </li>
@@ -80,7 +80,8 @@ function Nav() {
               <li style={{lineHeight:"10px"}}>
                 <Link href="/">
                   <a >
-                    <Image src="/img/touristy-transparent.png" alt="logo" height={55} width={55} />
+                    <img src="/img/touristy-transparent.png" alt="logo" height={55} width={55} />
+                    {/* <Image src="/img/touristy-transparent.png" alt="logo" height={55} width={55} /> */}
                   </a>
                   </Link>
                 </li>
