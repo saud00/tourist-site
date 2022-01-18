@@ -1,5 +1,5 @@
 import Link from "next/link"
-import Image from "next/Image"
+// import Image from "next/Image"
 import {useState, useEffect} from "react"
 import styles from "../styles/nav.module.css"
 import { FaPhoneAlt,FaBars,FaUser } from "react-icons/fa";
@@ -33,7 +33,8 @@ function Nav() {
               <div style={{ alignSelf:"center"}}>
                   <Link href="/">
                   <a>
-                    <Image src="/img/touristy-transparent.png" alt="logo" height={150} width={150} />
+                    <img  src="/img/touristy-transparent.png" alt="logo" height={150} width={150}  />
+                    {/* <Image src="/img/touristy-transparent.png" alt="logo" height={150} width={150} /> */}
                   </a>
                   </Link>
                 </div>
