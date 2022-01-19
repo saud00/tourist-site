@@ -7,13 +7,6 @@ const jwt = require('jsonwebtoken')
 const userLogin = require('../schema/loginSchema')
 const  Authentication  = require('../middleware/authentication') 
 
-router.get('/',  (req, res)=>{
-    res.send('home page')
-})
-
-router.get('/contact',  (req, res)=>{
-    res.send(' contact page')
-})
 
 router.get('/comments',Authentication, async(req, res)=>{
     await console.log("req in route",req.verifyUser)
